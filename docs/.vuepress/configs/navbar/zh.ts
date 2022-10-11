@@ -1,5 +1,4 @@
 import type { NavbarConfig } from '@vuepress/theme-default'
-import { version } from '../meta.js'
 
 export const navbarZh: NavbarConfig = [
   {
@@ -118,19 +117,15 @@ export const navbarZh: NavbarConfig = [
     ],
   },
   {
-    text: `v${version}`,
+    text: '更新日志',
     children: [
       {
-        text: '更新日志',
-        link: 'https://github.com/vuepress/vuepress-next/blob/main/CHANGELOG.md',
+        text: 'v1.1.0',
+        link: 'https://github.com/dolphindbit/helm-chart',
       },
       {
-        text: 'v1.x',
-        link: 'https://v1.vuepress.vuejs.org/zh/',
-      },
-      {
-        text: 'v0.x',
-        link: 'https://v0.vuepress.vuejs.org/zh/',
+        text: 'v1.0.0',
+        link: 'https://github.com/dolphindbit/helm-chart',
       },
     ],
   },

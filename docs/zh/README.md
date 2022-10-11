@@ -10,57 +10,35 @@ actions:
     link: /zh/guide/
     type: secondary
 features:
-  - title: 简洁至上
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-  - title: Vue 驱动
-    details: 享受 Vue 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
-  - title: 高性能
-    details: VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。
-  - title: 主题
-    details: 提供了一个开箱即用的默认主题。你也可以挑选一个社区主题，或者创建一个你自己的主题。
-  - title: 插件
-    details: 灵活的插件API，使得插件可以为你的站点提供许多即插即用的功能。
-  - title: 打包工具
-    details: 默认的打包工具是 Vite ，也同样支持 Webpack 。选一个你喜欢的来使用吧！
-footer: MIT Licensed | Copyright © 2018-present Evan You
+  - title: 容器部署
+    details: 以容器形式在云环境中部署DolphinDB,基于Docker构建容器镜像,支持在多种云平台的Kubernetes环境中运行。
+  - title: CRD驱动
+    details: 使用CRD(CustomResourceDefinition)定义Kubernetes环境中的DolphinDB,通过Operator进行CRD的解析。
+  - title: 高效运维
+    details: 结合Promrtheus, AlertManager, Grafana, Loki构建完整运维体系，保障云上集群高可用。
+  - title: 可视化管理
+    details: 提供了云环境下独立的可视化界面，便于进行环境管理和集群操作。
+  - title: 灵活选择
+    details: 提供灵活的部署方式，适配于公有云/私有云等不同的云环境。
+  - title: 高可用
+    details: 提供备份恢复/主备集群的功能，保障业务连续性。
+footer: MIT Licensed | Copyright © 2022 DolphinDB
 ---
 
-### 像数 1, 2, 3 一样容易
+### 在Kubernetes环境中部署DolphinDB-MGR
 
 <CodeGroup>
-  <CodeGroupItem title="YARN" active>
+  <CodeGroupItem title="Helm" active>
 
 ```bash
-# 在你的项目中安装
-yarn add -D vuepress@next
+# 添加Helm仓库
+helm repo add dolphindb https://dolphindbit.github.io/helm-chart/
 
-# 新建一个 markdown 文件
-echo '# Hello VuePress' > README.md
-
-# 开始写作
-yarn vuepress dev
-
-# 构建静态文件
-yarn vuepress build
+# 使用Helm安装DolphinDB-MGR
+# 待Pod均准备就绪即可通过service资源访问可视化界面
+helm install dolphindb-mgr dolphindb/dolphindb-mgr \
+  --set-file license.content=$licensePath/license.lic \
+  -ndolphindb --create-namespace
 ```
-
-  </CodeGroupItem>
-
-  <CodeGroupItem title="NPM">
-
-```bash
-# 在你的项目中安装
-npm install -D vuepress@next
-
-# 新建一个 markdown 文件
-echo '# Hello VuePress' > README.md
-
-# 开始写作
-npx vuepress dev
-
-# 构建静态文件
-npx vuepress build
-```
-
   </CodeGroupItem>
 </CodeGroup>

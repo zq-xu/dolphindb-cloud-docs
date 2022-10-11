@@ -30,13 +30,13 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'VuePress',
-      description: 'Vue-powered Static Site Generator',
+      title: 'DolphinDB Cloud',
+      description: 'DolphinDB usage in the cloud',
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: 'VuePress',
-      description: 'Vue 驱动的静态网站生成器',
+      title: 'DolphinDB云',
+      description: 'DolphinDB在云平台中的使用',
     },
   },
 
@@ -47,7 +47,8 @@ export default defineUserConfig({
   // configure default theme
   theme: defaultTheme({
     logo: '/images/hero.png',
-    repo: 'vuepress/vuepress-next',
+    repo: 'https://github.com/dolphindb/dolphindb-k8s/blob/master/README_CN.md',
+    repoLabel: 'Github',
     docsDir: 'docs',
 
     // theme-level locales config
