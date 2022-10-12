@@ -25,7 +25,7 @@ features:
 footer: MIT Licensed | Copyright © 2022 DolphinDB
 ---
 
-### 在Kubernetes环境中部署DolphinDB-MGR
+<!-- ### 在Kubernetes环境中部署DolphinDB-MGR
 
 <CodeGroup>
   <CodeGroupItem title="Helm" active>
@@ -42,4 +42,4 @@ helm install dolphindb-mgr dolphindb/dolphindb-mgr \
 ```
 
   </CodeGroupItem>
-</CodeGroup>
+</CodeGroup> -->
