@@ -42,7 +42,7 @@ Typically `.vuepress/public/manifest.webmanifest`:
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#fff",
-  "theme_color": "#3eaf7c",
+  "theme_color": "#1097e5",
   "icons": [
     {
       "src": "/images/icons/android-chrome-192x192.png",
@@ -79,7 +79,7 @@ You also need to set some tags via [head](../config.md#head) option to [deploy t
 export default {
   head: [
     ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#1097e5' }],
     // ...other tags
   ],
 }

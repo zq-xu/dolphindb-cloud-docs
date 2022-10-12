@@ -40,5 +40,6 @@ helm install dolphindb-mgr dolphindb/dolphindb-mgr \
   --set-file license.content=$licensePath/license.lic \
   -ndolphindb --create-namespace
 ```
+
   </CodeGroupItem>
 </CodeGroup>
