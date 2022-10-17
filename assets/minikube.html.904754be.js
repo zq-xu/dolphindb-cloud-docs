@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-428b3c90","path":"/zh/reference/kubernetes/minikube.html","title":"Minikube","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1665982815000,"contributors":[{"name":"\u5F90\u5FD7\u5F3A","email":"zhiqiang.xu@dolphindb.com","commits":1}]},"filePathRelative":"zh/reference/kubernetes/minikube.md"}');export{e as data};

@@ -1,4 +1,4 @@
-import{_ as e,o as n,c as o,a as t}from"./app.cf18de05.js";const l={};function i(d,c){return n(),o("div",null,[t(` ### \u5728Kubernetes\u73AF\u5883\u4E2D\u90E8\u7F72DolphinDB-MGR
+import{_ as e,o as n,c as o,a as t}from"./app.2d3ab3a8.js";const l={};function i(d,c){return n(),o("div",null,[t(` ### \u5728Kubernetes\u73AF\u5883\u4E2D\u90E8\u7F72DolphinDB-MGR
 
 <CodeGroup>
   <CodeGroupItem title="Helm" active>
