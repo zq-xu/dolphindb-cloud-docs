@@ -1,0 +1,1 @@
+import{_ as o,o as c,c as r,a as e,b as s}from"./app.552e7d00.js";const t={},a=e("h1",{id:"docker-compose",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#docker-compose","aria-hidden":"true"},"#"),s(" Docker Compose")],-1),d=[a];function n(_,i){return c(),r("div",null,d)}const h=o(t,[["render",n],["__file","docker-compose.html.vue"]]);export{h as default};
