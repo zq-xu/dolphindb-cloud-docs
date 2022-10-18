@@ -4,126 +4,82 @@ export const sidebarZh: SidebarConfig = {
   '/zh/guide/': [
     {
       text: '指南',
+      // collapsible: true,
       children: [
         '/zh/guide/README.md',
-        '/zh/guide/getting-started.md',
-        '/zh/guide/configuration.md',
-        '/zh/guide/page.md',
-        '/zh/guide/markdown.md',
-        '/zh/guide/assets.md',
-        '/zh/guide/i18n.md',
-        '/zh/guide/deployment.md',
-        '/zh/guide/theme.md',
-        '/zh/guide/plugin.md',
-        '/zh/guide/bundler.md',
-        '/zh/guide/migration.md',
+        '/zh/guide/installer.md',
+        '/zh/guide/kubernetes.md',
+        '/zh/guide/docker-compose.md',
+        '/zh/guide/public-cloud.md',
+        '/zh/guide/roadmap.md',
       ],
     },
   ],
-  '/zh/advanced/': [
+
+  '/zh/reference/tools/': [
     {
-      text: '深入',
+      text: '常用工具',
       children: [
-        '/zh/advanced/architecture.md',
-        '/zh/advanced/plugin.md',
-        '/zh/advanced/theme.md',
-      ],
-    },
-    {
-      text: 'Cookbook',
-      children: [
-        '/zh/advanced/cookbook/README.md',
-        '/zh/advanced/cookbook/usage-of-client-config.md',
-        '/zh/advanced/cookbook/adding-extra-pages.md',
-        '/zh/advanced/cookbook/making-a-theme-extendable.md',
-        '/zh/advanced/cookbook/passing-data-to-client-code.md',
-        '/zh/advanced/cookbook/markdown-and-vue-sfc.md',
+        '/zh/reference/tools/helm.md',
+        '/zh/reference/tools/harbor.md',
       ],
     },
   ],
-  '/zh/reference/': [
+
+  '/zh/reference/docker/': [
     {
-      text: 'VuePress 参考',
-      collapsible: true,
+      text: 'Docker',
+      // collapsible: true,
       children: [
-        '/zh/reference/cli.md',
-        '/zh/reference/config.md',
-        '/zh/reference/frontmatter.md',
-        '/zh/reference/components.md',
-        '/zh/reference/plugin-api.md',
-        '/zh/reference/theme-api.md',
-        '/zh/reference/client-api.md',
-        '/zh/reference/node-api.md',
-      ],
-    },
-    {
-      text: '打包工具参考',
-      collapsible: true,
-      children: [
-        '/zh/reference/bundler/vite.md',
-        '/zh/reference/bundler/webpack.md',
-      ],
-    },
-    {
-      text: '默认主题参考',
-      collapsible: true,
-      children: [
-        '/zh/reference/default-theme/config.md',
-        '/zh/reference/default-theme/frontmatter.md',
-        '/zh/reference/default-theme/components.md',
-        '/zh/reference/default-theme/markdown.md',
-        '/zh/reference/default-theme/styles.md',
-        '/zh/reference/default-theme/extending.md',
-      ],
-    },
-    {
-      text: '官方插件参考',
-      collapsible: true,
-      children: [
-        {
-          text: '常用功能',
-          children: [
-            '/zh/reference/plugin/back-to-top.md',
-            '/zh/reference/plugin/container.md',
-            '/zh/reference/plugin/external-link-icon.md',
-            '/zh/reference/plugin/google-analytics.md',
-            '/zh/reference/plugin/medium-zoom.md',
-            '/zh/reference/plugin/nprogress.md',
-            '/zh/reference/plugin/register-components.md',
-          ],
-        },
-        {
-          text: '内容搜索',
-          children: [
-            '/zh/reference/plugin/docsearch.md',
-            '/zh/reference/plugin/search.md',
-          ],
-        },
-        {
-          text: 'PWA',
-          children: [
-            '/zh/reference/plugin/pwa.md',
-            '/zh/reference/plugin/pwa-popup.md',
-          ],
-        },
-        {
-          text: '语法高亮',
-          children: [
-            '/zh/reference/plugin/prismjs.md',
-            '/zh/reference/plugin/shiki.md',
-          ],
-        },
-        {
-          text: '主题开发',
-          children: [
-            '/zh/reference/plugin/active-header-links.md',
-            '/zh/reference/plugin/git.md',
-            '/zh/reference/plugin/palette.md',
-            '/zh/reference/plugin/theme-data.md',
-            '/zh/reference/plugin/toc.md',
-          ],
-        },
+        '/zh/reference/docker/README.md',
+        '/zh/reference/docker/installer.md',
       ],
     },
   ],
+
+  '/zh/reference/kubernetes/': [
+    {
+      text: 'Kubernetes',
+      // collapsible: true,
+      children: [
+        '/zh/reference/kubernetes/README.md',
+        '/zh/reference/kubernetes/installer.md',
+      ],
+    },
+  ],
+  
+  '/zh/reference/docker-compose/': [
+    {
+      text: 'Docker Compose',
+      // collapsible: true,
+      children: [
+        '/zh/reference/docker-compose/README.md',
+        '/zh/reference/docker-compose/installer.md',
+      ],
+    },
+  ],
+
+  '/zh/reference/dolphindb-mgr/': [
+    {
+      text: 'DolphinDB MGR',
+      children: [
+        '/zh/reference/dolphindb-mgr/README.md',
+        '/zh/reference/dolphindb-mgr/components.md',
+        '/zh/reference/dolphindb-mgr/deployment.md',
+        '/zh/reference/dolphindb-mgr/configs.md',
+      ],
+    },
+  ],
+
+  '/zh/reference/dolphindb-chart/': [
+    {
+      text: 'DolphinDB Chart',
+      children: [
+        '/zh/reference/dolphindb-chart/README.md',
+        '/zh/reference/dolphindb-chart/deployment.md',
+        '/zh/reference/dolphindb-chart/configs.md',
+      ],
+    },
+  ],
+
 }

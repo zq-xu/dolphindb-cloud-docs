@@ -29,14 +29,14 @@ export default defineUserConfig({
   // site-level locales config
   locales: {
     '/': {
-      lang: 'en-US',
-      title: 'DolphinDB Cloud',
-      description: 'DolphinDB usage in the cloud',
-    },
-    '/zh/': {
       lang: 'zh-CN',
       title: 'DolphinDB云',
       description: 'DolphinDB在云平台中的使用',
+    },
+    '/en/': {
+      lang: 'en-US',
+      title: 'DolphinDB Cloud',
+      description: 'DolphinDB usage in the cloud',
     },
   },
 
@@ -50,7 +50,7 @@ export default defineUserConfig({
     repo: 'https://github.com/dolphindb/dolphindb-k8s/blob/master/README_CN.md',
     repoLabel: 'Github',
     docsDir: 'docs',
-
+    colorMode: 'light',
     // theme-level locales config
     locales: {
       /**
@@ -59,11 +59,12 @@ export default defineUserConfig({
        * As the default locale of @vuepress/theme-default is English,
        * we don't need to set all of the locale fields
        */
-      '/': {
+      '/en/': {
         // navbar
-        navbar: navbarEn,
+        // navbar: navbarEn,
+        selectLanguageName: 'English',
         // sidebar
-        sidebar: sidebarEn,
+        // sidebar: sidebarEn,
         // page meta
         editLinkText: 'Edit this page on GitHub',
       },
@@ -71,7 +72,7 @@ export default defineUserConfig({
       /**
        * Chinese locale config
        */
-      '/zh/': {
+      '/': {
         // navbar
         navbar: navbarZh,
         selectLanguageName: '简体中文',

@@ -5,128 +5,136 @@ export const navbarZh: NavbarConfig = [
     text: '指南',
     link: '/zh/guide/',
   },
+
   {
     text: '参考',
     children: [
       {
-        text: 'VuePress',
+        text: '常用工具',
         children: [
-          '/zh/reference/cli.md',
-          '/zh/reference/config.md',
-          '/zh/reference/frontmatter.md',
-          '/zh/reference/components.md',
-          '/zh/reference/plugin-api.md',
-          '/zh/reference/theme-api.md',
-          '/zh/reference/client-api.md',
-          '/zh/reference/node-api.md',
+          '/zh/reference/tools/helm.md',
+          '/zh/reference/tools/harbor.md',
         ],
       },
+
       {
-        text: '打包工具',
+        text: '容器编排',
         children: [
-          '/zh/reference/bundler/vite.md',
-          '/zh/reference/bundler/webpack.md',
+          {
+            text: 'Docker',
+            link: '/zh/reference/docker/README.md',
+          },
+          {
+            text: 'Kubernetes',
+            link: '/zh/reference/kubernetes/README.md',
+          },
+          {
+            text: 'Docker Compose',
+            link: '/zh/reference/docker-compose/README.md',
+          },
         ],
       },
+
       {
-        text: '默认主题',
+        text: 'Chart包',
         children: [
-          '/zh/reference/default-theme/config.md',
-          '/zh/reference/default-theme/frontmatter.md',
-          '/zh/reference/default-theme/components.md',
-          '/zh/reference/default-theme/markdown.md',
-          '/zh/reference/default-theme/styles.md',
-          '/zh/reference/default-theme/extending.md',
+          {
+            text: 'DolphinDB Chart',
+            link: '/zh/reference/dolphindb-chart/README.md',
+          },
+          {
+            text: 'DolphinDB MGR',
+            link: '/zh/reference/dolphindb-mgr/README.md',
+          },
         ],
       },
     ],
   },
+
   {
-    text: '插件',
+    text: '公有云',
     children: [
       {
-        text: '常用功能',
+        text: '亚马逊云(AWS)',
         children: [
-          '/zh/reference/plugin/back-to-top.md',
-          '/zh/reference/plugin/container.md',
-          '/zh/reference/plugin/external-link-icon.md',
-          '/zh/reference/plugin/google-analytics.md',
-          '/zh/reference/plugin/medium-zoom.md',
-          '/zh/reference/plugin/nprogress.md',
-          '/zh/reference/plugin/register-components.md',
+          {
+            text: 'AWS Marketplace',
+            link: 'https://aws.amazon.com/marketplace/pp/prodview-6j7wqm5tobvko?sr=0-1&ref_=beagle&applicationId=AWSMPContessa',
+          },
         ],
       },
       {
-        text: '内容搜索',
+        text: '阿里云',
         children: [
-          '/zh/reference/plugin/docsearch.md',
-          '/zh/reference/plugin/search.md',
-        ],
-      },
-      {
-        text: 'PWA',
-        children: [
-          '/zh/reference/plugin/pwa.md',
-          '/zh/reference/plugin/pwa-popup.md',
-        ],
-      },
-      {
-        text: '语法高亮',
-        children: [
-          '/zh/reference/plugin/prismjs.md',
-          '/zh/reference/plugin/shiki.md',
-        ],
-      },
-      {
-        text: '主题开发',
-        children: [
-          '/zh/reference/plugin/active-header-links.md',
-          '/zh/reference/plugin/git.md',
-          '/zh/reference/plugin/palette.md',
-          '/zh/reference/plugin/theme-data.md',
-          '/zh/reference/plugin/toc.md',
+          {
+            text: '阿里云 云市场',
+            link: 'https://market.aliyun.com/products/',
+          },
         ],
       },
     ],
   },
+
   {
     text: '了解更多',
     children: [
       {
-        text: '深入',
+        text: 'DolphinDB',
         children: [
-          '/zh/advanced/architecture.md',
-          '/zh/advanced/plugin.md',
-          '/zh/advanced/theme.md',
           {
-            text: 'Cookbook',
-            link: '/zh/advanced/cookbook/',
+            text: 'DolphinDB 官网',
+            link:'https://www.dolphindb.cn/',
           },
         ],
       },
       {
-        text: '其他资源',
+        text: 'DolphinDB 稳定版',
         children: [
-          '/zh/contributing.md',
           {
-            text: 'Awesome VuePress',
-            link: 'https://github.com/vuepress/awesome-vuepress',
+            text: 'DolphinDB 稳定版手册',
+            link: 'https://www.dolphindb.cn/cn/help/130/index.html',
+          },
+          {
+            text: 'DolphinDB 稳定版配置',
+            link: 'https://www.dolphindb.cn/cn/help/130/DatabaseandDistributedComputing/Configuration/StandaloneMode.html',
+          },
+          {
+            text: 'DolphinDB 稳定版集群配置',
+            link: 'https://www.dolphindb.cn/cn/help/130/DatabaseandDistributedComputing/Configuration/ClusterMode.html',
+          },
+        ],
+      },
+      {
+        text: 'DolphinDB Beta版',
+        children: [
+          {
+            text: 'DolphinDB Beta版手册',
+            link: 'https://www.dolphindb.cn/cn/help/200/index.html#',
+          },
+          {
+            text: 'DolphinDB Beta版配置',
+            link: 'https://www.dolphindb.cn/cn/help/200/DatabaseandDistributedComputing/Configuration/StandaloneMode.html',
+          },
+          {
+            text: 'DolphinDB Beta版集群配置',
+            link: 'https://www.dolphindb.cn/cn/help/200/DatabaseandDistributedComputing/Configuration/ClusterMode.html',
           },
         ],
       },
     ],
   },
-  {
-    text: '更新日志',
-    children: [
-      {
-        text: 'v1.1.0',
-        link: 'https://github.com/dolphindbit/helm-chart',
-      },
-      {
-        text: 'v1.0.0',
-        link: 'https://github.com/dolphindbit/helm-chart',
-      },
-    ],
-  },
+
+  // {
+  //   text: '更新日志',
+  //   children: [
+  //     {
+  //       text: 'v1.1.0',
+  //       link: 'https://github.com/dolphindbit/helm-chart',
+  //     },
+  //     {
+  //       text: 'v1.0.0',
+  //       link: 'https://github.com/dolphindbit/helm-chart',
+  //     },
+  //   ],
+  // },
 ]

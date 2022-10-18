@@ -1,66 +1,27 @@
 ---
 home: true
-title: Home
+lang: zh-CN
+title: 首页
 heroImage: /images/hero.png
 actions:
-  - text: Get Started
-    link: /guide/getting-started.html
+  - text: 快速入门
+    link: /zh/guide/
     type: primary
-  - text: Introduction
-    link: /guide/
+  - text: 技术路线
+    link: /zh/guide/roadmap.md
     type: secondary
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site. 
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
-footer: MIT Licensed | Copyright © 2018-present Evan You
+  - title: 容器部署
+    details: 基于Docker构建DolphinDB容器镜像,支持在Kubernetes等多种云环境中运行DolphinDB.
+  - title: CRD驱动
+    details: 使用CRD(CustomResourceDefinition)定义Kubernetes环境中的DolphinDB,通过Operator进行CRD的解析。
+  - title: 高效运维
+    details: 结合Promrtheus, AlertManager, Grafana, Loki构建完整运维体系，保障云上集群高可用。
+  - title: 可视化管理
+    details: 提供了云环境下简洁的可视化界面，便于进行环境管理和集群操作。
+  - title: 快速部署
+    details: 提供简单且灵活的部署方式，适配于公有云/私有云等不同的云环境。
+  - title: 高可用
+    details: 提供备份恢复/主备集群的功能，保障业务连续性。
+footer: MIT Licensed | Copyright © 2022 DolphinDB
 ---
-
-### As Easy as 1, 2, 3
-
-<CodeGroup>
-  <CodeGroupItem title="YARN" active>
-
-```bash
-# install in your project
-yarn add -D vuepress@next
-
-# create a markdown file
-echo '# Hello VuePress' > README.md
-
-# start writing
-yarn vuepress dev
-
-# build to static files
-yarn vuepress build
-```
-
-  </CodeGroupItem>
-
-  <CodeGroupItem title="NPM">
-  
-```bash
-# install in your project
-npm install -D vuepress@next
-
-# create a markdown file
-echo '# Hello VuePress' > README.md
-
-# start writing
-npx vuepress dev
-
-# build to static files
-npx vuepress build
-```
-
-  </CodeGroupItem>
-</CodeGroup>
