@@ -21,7 +21,7 @@ const isProd = process.env.NODE_ENV === 'production'
 
 export default defineUserConfig({
   // set site base to default value
-  base: '/dolphindb-cloud-docs/',
+  base: '/',
 
   // extra tags in `<head>`
   head,
