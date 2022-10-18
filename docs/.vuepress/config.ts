@@ -47,10 +47,15 @@ export default defineUserConfig({
   // configure default theme
   theme: defaultTheme({
     logo: '/images/hero.png',
+    
     repo: 'https://github.com/dolphindb/dolphindb-k8s/blob/master/README_CN.md',
     repoLabel: 'Github',
+
     docsDir: 'docs',
+
     colorMode: 'light',
+    editLink: false,
+
     // theme-level locales config
     locales: {
       /**
