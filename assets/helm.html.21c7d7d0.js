@@ -1,1 +1,0 @@
-import{_ as t,o as a,c,a as e,b as o}from"./app.2ce12a90.js";const r={},s=e("h1",{id:"helm\u5DE5\u5177",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#helm\u5DE5\u5177","aria-hidden":"true"},"#"),o(" Helm\u5DE5\u5177")],-1),n=[s];function _(l,h){return a(),c("div",null,n)}const i=t(r,[["render",_],["__file","helm.html.vue"]]);export{i as default};
