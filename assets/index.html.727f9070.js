@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-80ca43c0","path":"/zh/reference/tools/","title":"\u5B89\u88C5\u5DE5\u5177","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1666037288000,"contributors":[{"name":"\u5F90\u5FD7\u5F3A","email":"zhiqiang.xu@dolphindb.com","commits":1}]},"filePathRelative":"zh/reference/tools/README.md"}');export{e as data};
