@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-17523c34","path":"/zh/reference/docker/installer.html","title":"\u5B89\u88C5","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1666104794000,"contributors":[{"name":"\u5F90\u5FD7\u5F3A","email":"zhiqiang.xu@dolphindb.com","commits":1}]},"filePathRelative":"zh/reference/docker/installer.md"}');export{e as data};

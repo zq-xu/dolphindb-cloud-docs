@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-a729638a","path":"/zh/reference/tools/helm.html","title":"Helm\u5DE5\u5177","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1666104794000,"contributors":[{"name":"\u5F90\u5FD7\u5F3A","email":"zhiqiang.xu@dolphindb.com","commits":1}]},"filePathRelative":"zh/reference/tools/helm.md"}');export{e as data};
