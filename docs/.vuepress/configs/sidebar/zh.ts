@@ -7,21 +7,33 @@ export const sidebarZh: SidebarConfig = {
       // collapsible: true,
       children: [
         '/zh/guide/README.md',
-        '/zh/guide/installer.md',
-        '/zh/guide/kubernetes.md',
-        '/zh/guide/docker-compose.md',
+        '/zh/guide/container-deploy.md',
         '/zh/guide/public-cloud.md',
         '/zh/guide/roadmap.md',
       ],
     },
   ],
 
-  '/zh/reference/tools/': [
+  '/zh/tutorial/dolphindb-mgr/': [
     {
-      text: '常用工具',
+      text: 'DolphinDB MGR',
       children: [
-        '/zh/reference/tools/helm.md',
-        '/zh/reference/tools/harbor.md',
+        '/zh/tutorial/dolphindb-mgr/README.md',
+        '/zh/tutorial/dolphindb-mgr/components.md',
+        '/zh/tutorial/dolphindb-mgr/deployment.md',
+        '/zh/tutorial/dolphindb-mgr/configs.md',
+        '/zh/tutorial/dolphindb-mgr/release.md',
+      ],
+    },
+  ],
+
+  '/zh/tutorial/dolphindb-chart/': [
+    {
+      text: 'DolphinDB Chart',
+      children: [
+        '/zh/tutorial/dolphindb-chart/README.md',
+        '/zh/tutorial/dolphindb-chart/deployment.md',
+        '/zh/tutorial/dolphindb-chart/configs.md',
       ],
     },
   ],
@@ -59,27 +71,13 @@ export const sidebarZh: SidebarConfig = {
     },
   ],
 
-  '/zh/reference/dolphindb-mgr/': [
+  '/zh/reference/tools/': [
     {
-      text: 'DolphinDB MGR',
+      text: '常用工具',
       children: [
-        '/zh/reference/dolphindb-mgr/README.md',
-        '/zh/reference/dolphindb-mgr/components.md',
-        '/zh/reference/dolphindb-mgr/deployment.md',
-        '/zh/reference/dolphindb-mgr/configs.md',
+        '/zh/reference/tools/helm.md',
+        '/zh/reference/tools/harbor.md',
       ],
     },
   ],
-
-  '/zh/reference/dolphindb-chart/': [
-    {
-      text: 'DolphinDB Chart',
-      children: [
-        '/zh/reference/dolphindb-chart/README.md',
-        '/zh/reference/dolphindb-chart/deployment.md',
-        '/zh/reference/dolphindb-chart/configs.md',
-      ],
-    },
-  ],
-
 }

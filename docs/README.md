@@ -4,7 +4,7 @@ lang: zh-CN
 title: 首页
 heroImage: /images/hero.png
 actions:
-  - text: 快速入门
+  - text: 项目介绍
     link: /zh/guide/
     type: primary
   - text: 技术路线

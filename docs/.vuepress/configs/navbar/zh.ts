@@ -7,45 +7,20 @@ export const navbarZh: NavbarConfig = [
   },
 
   {
-    text: '参考',
+    text: '教程',
     children: [
-      {
-        text: '常用工具',
-        children: [
-          '/zh/reference/tools/helm.md',
-          '/zh/reference/tools/harbor.md',
-        ],
-      },
-
-      {
-        text: '容器编排',
-        children: [
-          {
-            text: 'Docker',
-            link: '/zh/reference/docker/README.md',
-          },
-          {
-            text: 'Kubernetes',
-            link: '/zh/reference/kubernetes/README.md',
-          },
-          {
-            text: 'Docker Compose',
-            link: '/zh/reference/docker-compose/README.md',
-          },
-        ],
-      },
-
       {
         text: 'Chart包',
         children: [
           {
-            text: 'DolphinDB Chart',
-            link: '/zh/reference/dolphindb-chart/README.md',
+            text: 'DolphinDB MGR',
+            link: '/zh/tutorial/dolphindb-mgr/README.md',
           },
           {
-            text: 'DolphinDB MGR',
-            link: '/zh/reference/dolphindb-mgr/README.md',
+            text: 'DolphinDB Chart',
+            link: '/zh/tutorial/dolphindb-chart/README.md',
           },
+      
         ],
       },
     ],
@@ -76,8 +51,40 @@ export const navbarZh: NavbarConfig = [
   },
 
   {
+    text: '参考',
+    children: [
+      {
+        text: '容器编排',
+        children: [
+          {
+            text: 'Docker',
+            link: '/zh/reference/docker/README.md',
+          },
+          {
+            text: 'Kubernetes',
+            link: '/zh/reference/kubernetes/README.md',
+          },
+          {
+            text: 'Docker Compose',
+            link: '/zh/reference/docker-compose/README.md',
+          },
+        ],
+      },
+
+      {
+        text: '常用工具',
+        children: [
+          '/zh/reference/tools/helm.md',
+          '/zh/reference/tools/harbor.md',
+        ],
+      },
+    ],
+  },
+
+  {
     text: '了解更多',
     children: [
+     
       {
         text: 'DolphinDB',
         children: [
@@ -87,6 +94,7 @@ export const navbarZh: NavbarConfig = [
           },
         ],
       },
+
       {
         text: 'DolphinDB 稳定版',
         children: [
@@ -123,18 +131,4 @@ export const navbarZh: NavbarConfig = [
       },
     ],
   },
-
-  // {
-  //   text: '更新日志',
-  //   children: [
-  //     {
-  //       text: 'v1.1.0',
-  //       link: 'https://github.com/dolphindbit/helm-chart',
-  //     },
-  //     {
-  //       text: 'v1.0.0',
-  //       link: 'https://github.com/dolphindbit/helm-chart',
-  //     },
-  //   ],
-  // },
 ]
