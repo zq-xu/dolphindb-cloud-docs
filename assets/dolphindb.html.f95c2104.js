@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as a,a as e,b as d}from"./app.43b161d6.js";const n={},c=e("h1",{id:"dolphindb",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#dolphindb","aria-hidden":"true"},"#"),d(" DolphinDB")],-1),r=[c];function s(i,_){return t(),a("div",null,r)}const l=o(n,[["render",s],["__file","dolphindb.html.vue"]]);export{l as default};
