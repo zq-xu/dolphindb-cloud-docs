@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as n,a as e,b as r}from"./app.c5edd108.js";const s={},c=e("h1",{id:"kubernetes\u5B89\u88C5",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#kubernetes\u5B89\u88C5","aria-hidden":"true"},"#"),r(" Kubernetes\u5B89\u88C5")],-1),o=[c];function _(d,i){return a(),n("div",null,o)}const l=t(s,[["render",_],["__file","index.html.vue"]]);export{l as default};
