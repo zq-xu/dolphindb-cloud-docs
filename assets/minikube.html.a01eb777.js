@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as i,a as e,b as n}from"./app.5cf62e32.js";const c={},o=e("h1",{id:"minikube",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#minikube","aria-hidden":"true"},"#"),n(" Minikube")],-1),r=[o];function s(_,d){return a(),i("div",null,r)}const h=t(c,[["render",s],["__file","minikube.html.vue"]]);export{h as default};
