@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as r,a as e,b as s}from"./app.f438bde5.js";const c={},n=e("h1",{id:"\u5B89\u88C5",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#\u5B89\u88C5","aria-hidden":"true"},"#"),s(" \u5B89\u88C5")],-1),o=[n];function _(l,d){return a(),r("div",null,o)}const h=t(c,[["render",_],["__file","installer.html.vue"]]);export{h as default};
