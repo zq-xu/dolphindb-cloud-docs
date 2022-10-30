@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as n,a as e,b as r}from"./app.7cabacd3.js";const s={},c=e("h1",{id:"kubernetes安装",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#kubernetes安装","aria-hidden":"true"},"#"),r(" Kubernetes安装")],-1),o=[c];function _(d,i){return a(),n("div",null,o)}const l=t(s,[["render",_],["__file","index.html.vue"]]);export{l as default};

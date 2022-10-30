@@ -1,0 +1,1 @@
+import{_ as a,o as c,c as t,a as e,b as o}from"./app.7cabacd3.js";const s={},l=e("h1",{id:"localpath-csi安装",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#localpath-csi安装","aria-hidden":"true"},"#"),o(" LocalPath CSI安装")],-1),r=[l];function n(_,h){return c(),t("div",null,r)}const d=a(s,[["render",n],["__file","csi-localpath.html.vue"]]);export{d as default};
