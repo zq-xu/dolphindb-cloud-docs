@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8225202a","path":"/zh/reference/tools/kubectl.html","title":"Kubectl\u5DE5\u5177","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667153311000,"contributors":[{"name":"\u5F90\u5FD7\u5F3A","email":"zhiqiang.xu@dolphindb.com","commits":1}]},"filePathRelative":"zh/reference/tools/kubectl.md"}');export{e as data};

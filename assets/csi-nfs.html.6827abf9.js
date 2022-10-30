@@ -1,0 +1,1 @@
+import{_ as s,o as c,c as t,a as e,b as a}from"./app.1c6147e5.js";const n={},o=e("h1",{id:"nfs-csi\u5B89\u88C5",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#nfs-csi\u5B89\u88C5","aria-hidden":"true"},"#"),a(" NFS CSI\u5B89\u88C5")],-1),r=[o];function _(i,d){return c(),t("div",null,r)}const h=s(n,[["render",_],["__file","csi-nfs.html.vue"]]);export{h as default};

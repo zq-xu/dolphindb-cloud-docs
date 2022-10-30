@@ -1,0 +1,1 @@
+import{_ as c,o as s,c as t,a as e,b as a}from"./app.1c6147e5.js";const o={},r=e("h1",{id:"ceph-csi\u5B89\u88C5",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#ceph-csi\u5B89\u88C5","aria-hidden":"true"},"#"),a(" Ceph CSI\u5B89\u88C5")],-1),n=[r];function _(h,i){return s(),t("div",null,n)}const l=c(o,[["render",_],["__file","csi-ceph.html.vue"]]);export{l as default};
