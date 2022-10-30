@@ -6,8 +6,10 @@ import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
+import { commentPlugin } from "vuepress-plugin-comment2"
 import { defaultTheme } from '@vuepress/theme-default'
 import { getDirname, path } from '@vuepress/utils'
+
 import {
   head,
   navbarEn,
@@ -130,6 +132,13 @@ export default defineUserConfig({
 
   // use plugins
   plugins: [
+    commentPlugin({
+      provider: "Giscus",
+      repo: "zq-xu/dolphindb-cloud-docs",
+      repoId: "R_kgDOIFplyw",
+      category: "Announcements",
+      categoryId:"DIC_kwDOIFply84CSSEA",
+    }),
     docsearchPlugin({
       appId: '34YFD9IUQ2',
       apiKey: '9a9058b8655746634e01071411c366b8',
@@ -190,5 +199,6 @@ export default defineUserConfig({
     }),
     // only enable shiki plugin in production mode
     isProd ? shikiPlugin({ theme: 'dark-plus' }) : [],
+    
   ],
 })
