@@ -10,40 +10,59 @@ export const navbarZh: NavbarConfig = [
     text: '教程',
     children: [
       {
-        text: 'Chart包',
+        text: 'Docker',
         children: [
           {
-            text: 'DolphinDB MGR',
-            link: '/zh/tutorial/dolphindb-mgr/README.md',
+            text: 'Docker环境',
+            link: '/zh/guide/container-deployment.md#docker环境',
           },
           {
-            text: 'DolphinDB Chart',
-            link: '/zh/tutorial/dolphindb-chart/README.md',
+            text: 'Docker Compose环境',
+            link: '/zh/guide/container-deployment.md#docker-compose环境',
           },
-      
         ],
       },
-    ],
-  },
 
-  {
-    text: '公有云',
-    children: [
       {
-        text: '亚马逊云(AWS)',
+        text: 'Kubernetes',
         children: [
           {
-            text: 'AWS Marketplace',
-            link: 'https://aws.amazon.com/marketplace/pp/prodview-6j7wqm5tobvko?sr=0-1&ref_=beagle&applicationId=AWSMPContessa',
+            text: 'DolphinDB运行时',
+            link: '/zh/tutorial/kubernetes/dolphindb-runtime.md',
+          },
+          {
+            text: '部署DolphinDB',
+            link: '/zh/tutorial/kubernetes/dolphindb-deployment.md',
+          },
+          {
+            text: 'CRD && Operator',
+            link: '/zh/tutorial/kubernetes/crd-operator.md',
+          },
+          {
+            text: '高可用方案',
+            link: '/zh/tutorial/kubernetes/high-availability.md',
+          },
+          {
+            text: '运维工具',
+            link: '/zh/tutorial/kubernetes/site-reliability.md',
+          },
+          {
+            text: '可视化管理平台',
+            link: '/zh/tutorial/kubernetes/dolphindb-mgr/README.md',
           },
         ],
       },
+
       {
-        text: '阿里云',
+        text: '公有云平台',
         children: [
           {
-            text: '阿里云 云市场',
-            link: 'https://market.aliyun.com/products/',
+            text: '亚马逊云(AWS)',
+            link: '/zh/tutorial/public-cloud/aws.md',
+          },
+          {
+            text: '阿里云',
+            link: '/zh/tutorial/public-cloud/alibaba-cloud.md',
           },
         ],
       },
@@ -54,27 +73,32 @@ export const navbarZh: NavbarConfig = [
     text: '参考',
     children: [
       {
-        text: '容器编排',
+        text: '公开镜像',
         children: [
           {
-            text: 'Docker',
-            link: '/zh/reference/docker/README.md',
-          },
-          {
-            text: 'Kubernetes',
-            link: '/zh/reference/kubernetes/README.md',
-          },
-          {
-            text: 'Docker Compose',
-            link: '/zh/reference/docker-compose/README.md',
+            text: 'DockerHub',
+            link: 'https://hub.docker.com/r/dolphindb/dolphindb',
           },
         ],
       },
-
+      {
+        text: '容器编排',
+        children: [
+          {
+            text: 'Kubernetes',
+            link: '/zh/reference/kubernetes/README.md',
+          }
+        ],
+      },
       {
         text: '常用工具',
         children: [
+          '/zh/reference/tools/docker.md',
+          '/zh/reference/tools/kubeadm.md',
+          '/zh/reference/tools/kubectl.md',
           '/zh/reference/tools/helm.md',
+          '/zh/reference/tools/helm-push.md',
+          '/zh/reference/tools/helm-chartmuseum.md',
           '/zh/reference/tools/harbor.md',
         ],
       },

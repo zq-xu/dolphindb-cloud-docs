@@ -13,7 +13,7 @@ DolphinDB可以部署在以容器为基础的云原生环境和公有云平台�
 
 当前业界最为经典的容器化工具是[Docker](../reference/docker/),普遍使用[Kubernetes](https://kubernetes.io/zh-cn/docs/home/)作为容器编排框架，也有少数用户使用[Docker Compose](https://docs.docker.com/compose/)作为容器编排工具。
 
-DolphinDB支持在`Docker`、`Kubernetes`和`Docker Compose`环境中的容器化部署。
+DolphinDB支持在[Docker环境](./container-deployment.md#docker环境)、[Kubernetes环境](./container-deployment.md#kubernetes环境)和[Docker Compose环境](./container-deployment.md#docker-compose环境)中的容器化部署。
 
 
 ## 多工具运维
@@ -32,5 +32,5 @@ DolphinDB也已经上线了如下公有云市场：
 - [亚马逊云(AWS) Marketplace](./public-cloud.md#亚马逊云aws-marketplace)；
 - [阿里云(Alibaba Cloud)](./public-cloud.md#阿里云市场)；
 
-用户可以在以上云市场中一键部署DolphinDB!
+用户可以在以上云市场中一键部署DolphinDB.
 

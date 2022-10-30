@@ -11,17 +11,17 @@ actions:
     link: /zh/guide/roadmap.md
     type: secondary
 features:
-  - title: 容器部署
-    details: 基于Docker构建DolphinDB容器镜像,支持在Kubernetes等多种云环境中运行DolphinDB.
+  - title: 容器化部署
+    details: 构建容器镜像，支持DolphinDB在Kubernetes等容器环境中安装部署。
   - title: CRD驱动
-    details: 使用CRD(CustomResourceDefinition)定义Kubernetes环境中的DolphinDB,通过Operator进行CRD的解析。
-  - title: 高效运维
-    details: 结合Promrtheus, AlertManager, Grafana, Loki构建完整运维体系，保障云上集群高可用。
+    details: 使用CRD定义Kubernetes环境中的DolphinDB,通过Operator进行解析。
+  - title: 多功能运维
+    details: 结合Prometheus, AlertManager, Grafana, Loki等运维工具构建运维体系。
   - title: 可视化管理
     details: 提供了云环境下简洁的可视化界面，便于进行环境管理和集群操作。
-  - title: 快速部署
-    details: 提供简单且灵活的部署方式，适配于公有云/私有云等不同的云环境。
+  - title: 公有云对接
+    details: 对接多种公有云平台的云市场，支持在多种公有云平台的快速部署DolphinDB。
   - title: 高可用
-    details: 提供备份恢复/主备集群的功能，保障业务连续性。
+    details: 提供DolphinDB基于Kubernetes的备份恢复、主备集群，保障业务高可用。
 footer: MIT Licensed | Copyright © 2022 DolphinDB
 ---

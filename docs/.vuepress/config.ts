@@ -118,6 +118,10 @@ export default defineUserConfig({
 
   // configure markdown
   markdown: {
+    headers:{
+      level: [2, 3, 4],
+    },
+
     importCode: {
       handleImportPath: (str) =>
         str.replace(/^@vuepress/, path.resolve(__dirname, '../../ecosystem')),
