@@ -1,1 +1,0 @@
-import{_ as t,o as a,c,a as e,b as o}from"./app.7cabacd3.js";const s={},n=e("h1",{id:"配置参数",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#配置参数","aria-hidden":"true"},"#"),o(" 配置参数")],-1),r=[n];function _(d,i){return a(),c("div",null,r)}const h=t(s,[["render",_],["__file","configs.html.vue"]]);export{h as default};
