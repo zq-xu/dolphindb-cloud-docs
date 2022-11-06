@@ -1,7 +1,7 @@
 # DolphinDB运行时
 
 在[Kubernetes](/zh/reference/kubernetes/README.md)环境中，DolphinDB有三种角色的实例，分别为：
-- Controller: 管理节点，在集群模式下存在，可以有多个副本，遵循`RaftT`选主；
+- Controller: 管理节点，在集群模式下存在，可以有多个副本，遵循`Raft`选主；
 - Datanode: 数据节点，用于数据存储和计算任务，集群模式下可以有多个副本；
 - Computenode: 计算节点，主要执行计算任务，集群模式下可以有多个副本。
 
