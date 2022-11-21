@@ -1,0 +1,1 @@
+import{_ as c,o as s,c as t,a as e,b as a}from"./app.70434bce.js";const o={},r=e("h1",{id:"ceph-csi安装",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#ceph-csi安装","aria-hidden":"true"},"#"),a(" Ceph CSI安装")],-1),n=[r];function _(h,i){return s(),t("div",null,n)}const l=c(o,[["render",_],["__file","csi-ceph.html.vue"]]);export{l as default};
