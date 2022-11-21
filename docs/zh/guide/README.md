@@ -11,7 +11,7 @@ DolphinDB可以部署在以容器为基础的云原生环境和公有云平台�
 
 容器编排简单来说就是管理容器如何运行、如何调度，负责容器的整个生命周期。
 
-当前业界最为经典的容器化工具是[Docker](../reference/docker/),普遍使用[Kubernetes](https://kubernetes.io/zh-cn/docs/home/)作为容器编排框架，也有少数用户使用[Docker Compose](https://docs.docker.com/compose/)作为容器编排工具。
+当前业界最为经典的容器化工具是[Docker](https://docs.docker.com/),普遍使用[Kubernetes](https://kubernetes.io/zh-cn/docs/home/)作为容器编排框架，也有少数用户使用[Docker Compose](https://docs.docker.com/compose/)作为容器编排工具。
 
 DolphinDB支持在[Docker环境](./container-deployment.md#docker环境)、[Kubernetes环境](./container-deployment.md#kubernetes环境)和[Docker Compose环境](./container-deployment.md#docker-compose环境)中的容器化部署。
 
